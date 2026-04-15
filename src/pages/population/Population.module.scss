@@ -1,0 +1,81 @@
+@import "../../styles/helpers";
+
+// ── KPI Cards ──────────────────────────────────────────────
+.kpiCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.kpiIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+// ── View Toggle ────────────────────────────────────────────
+.toggleGroup {
+  display: flex;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.toggleBtn {
+  padding: 5px 16px;
+  border: none;
+  background: transparent;
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    color: #4D53E0;
+  }
+
+  &.active {
+    background: #4D53E0;
+    color: #fff;
+  }
+}
+
+// ── Custom Tooltip ─────────────────────────────────────────
+.tooltip {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+// ── District Panel ─────────────────────────────────────────
+.districtDot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.districtProgress {
+  background: #f0f0f0 !important;
+  padding: 0 !important;
+}
+
+// ── Urban/Suburban Split Bar ───────────────────────────────
+.splitBar {
+  display: flex;
+  height: 28px;
+  border-radius: 6px;
+  overflow: hidden;
+  gap: 2px;
+}
+
+.splitSegment {
+  height: 100%;
+  transition: width 0.4s ease;
+}

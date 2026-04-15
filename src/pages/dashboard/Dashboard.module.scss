@@ -1,0 +1,82 @@
+@import "../../styles/helpers";
+
+// ── KPI Cards ──────────────────────────────────────────────
+.kpiCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.kpiIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.trendUp {
+  font-size: 12px;
+  color: #3cd458;
+  font-weight: 500;
+}
+
+.trendDown {
+  font-size: 12px;
+  color: #41D5E2;
+  font-weight: 500;
+}
+
+// ── Live AQI Badge ─────────────────────────────────────────
+.liveBadge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #3CD45820;
+  color: #1e7a30;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.liveTime {
+  font-size: 11px;
+  color: #6b7280;
+}
+
+// ── Insights Panel ─────────────────────────────────────────
+.insightsWidget {
+  height: 100%;
+}
+
+.insightItem {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 13px;
+
+  i {
+    margin-top: 1px;
+    flex-shrink: 0;
+  }
+
+  &.warning {
+    background-color: #FFC40515;
+    color: #b38600;
+    i { color: #FFC405; }
+  }
+
+  &.success {
+    background-color: #3cd45815;
+    color: #1e7a30;
+    i { color: #3cd458; }
+  }
+
+  &.info {
+    background-color: #4D53E015;
+    color: #2d31a6;
+    i { color: #4D53E0; }
+  }
+}

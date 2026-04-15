@@ -1,0 +1,381 @@
+{
+  "summary": {
+    "avgAQI": 88,
+    "avgTemperature": 18.7,
+    "population": 2920000,
+    "avgPM25": 35,
+    "avgHumidity": 49
+  },
+  "monthly": [
+    { "month": "Jan", "aqi": 102, "pm25": 42, "pm10": 62, "temperature": 1.5,  "humidity": 74 },
+    { "month": "Feb", "aqi": 94,  "pm25": 38, "pm10": 56, "temperature": 4.2,  "humidity": 70 },
+    { "month": "Mar", "aqi": 80,  "pm25": 32, "pm10": 48, "temperature": 11.8, "humidity": 62 },
+    { "month": "Apr", "aqi": 66,  "pm25": 25, "pm10": 38, "temperature": 18.3, "humidity": 52 },
+    { "month": "May", "aqi": 72,  "pm25": 28, "pm10": 42, "temperature": 24.2, "humidity": 40 },
+    { "month": "Jun", "aqi": 88,  "pm25": 35, "pm10": 54, "temperature": 32.8, "humidity": 22 },
+    { "month": "Jul", "aqi": 96,  "pm25": 40, "pm10": 61, "temperature": 38.1, "humidity": 18 },
+    { "month": "Aug", "aqi": 92,  "pm25": 37, "pm10": 57, "temperature": 35.8, "humidity": 20 },
+    { "month": "Sep", "aqi": 78,  "pm25": 30, "pm10": 46, "temperature": 27.4, "humidity": 32 },
+    { "month": "Oct", "aqi": 84,  "pm25": 33, "pm10": 50, "temperature": 17.8, "humidity": 54 },
+    { "month": "Nov", "aqi": 96,  "pm25": 39, "pm10": 58, "temperature": 9.4,  "humidity": 66 },
+    { "month": "Dec", "aqi": 106, "pm25": 44, "pm10": 65, "temperature": 2.8,  "humidity": 76 }
+  ],
+  "districtMonthly": {
+    "Yunusabad": [
+      { "month": "Jan", "aqi": 97,  "pm25": 39, "pm10": 57 },
+      { "month": "Feb", "aqi": 89,  "pm25": 35, "pm10": 52 },
+      { "month": "Mar", "aqi": 75,  "pm25": 29, "pm10": 44 },
+      { "month": "Apr", "aqi": 62,  "pm25": 23, "pm10": 35 },
+      { "month": "May", "aqi": 68,  "pm25": 26, "pm10": 39 },
+      { "month": "Jun", "aqi": 83,  "pm25": 33, "pm10": 51 },
+      { "month": "Jul", "aqi": 91,  "pm25": 37, "pm10": 57 },
+      { "month": "Aug", "aqi": 87,  "pm25": 34, "pm10": 53 },
+      { "month": "Sep", "aqi": 73,  "pm25": 28, "pm10": 43 },
+      { "month": "Oct", "aqi": 80,  "pm25": 31, "pm10": 47 },
+      { "month": "Nov", "aqi": 91,  "pm25": 37, "pm10": 55 },
+      { "month": "Dec", "aqi": 100, "pm25": 41, "pm10": 61 }
+    ],
+    "Chilanzar": [
+      { "month": "Jan", "aqi": 128, "pm25": 53, "pm10": 72 },
+      { "month": "Feb", "aqi": 118, "pm25": 48, "pm10": 66 },
+      { "month": "Mar", "aqi": 104, "pm25": 43, "pm10": 60 },
+      { "month": "Apr", "aqi": 88,  "pm25": 35, "pm10": 50 },
+      { "month": "May", "aqi": 94,  "pm25": 38, "pm10": 56 },
+      { "month": "Jun", "aqi": 112, "pm25": 46, "pm10": 66 },
+      { "month": "Jul", "aqi": 122, "pm25": 51, "pm10": 73 },
+      { "month": "Aug", "aqi": 118, "pm25": 49, "pm10": 70 },
+      { "month": "Sep", "aqi": 104, "pm25": 43, "pm10": 61 },
+      { "month": "Oct", "aqi": 110, "pm25": 46, "pm10": 64 },
+      { "month": "Nov", "aqi": 120, "pm25": 50, "pm10": 70 },
+      { "month": "Dec", "aqi": 132, "pm25": 55, "pm10": 76 }
+    ],
+    "Mirzo Ulugbek": [
+      { "month": "Jan", "aqi": 82,  "pm25": 32, "pm10": 47 },
+      { "month": "Feb", "aqi": 74,  "pm25": 28, "pm10": 42 },
+      { "month": "Mar", "aqi": 63,  "pm25": 23, "pm10": 36 },
+      { "month": "Apr", "aqi": 52,  "pm25": 18, "pm10": 28 },
+      { "month": "May", "aqi": 58,  "pm25": 21, "pm10": 33 },
+      { "month": "Jun", "aqi": 72,  "pm25": 27, "pm10": 43 },
+      { "month": "Jul", "aqi": 79,  "pm25": 31, "pm10": 48 },
+      { "month": "Aug", "aqi": 76,  "pm25": 29, "pm10": 45 },
+      { "month": "Sep", "aqi": 64,  "pm25": 24, "pm10": 37 },
+      { "month": "Oct", "aqi": 70,  "pm25": 26, "pm10": 40 },
+      { "month": "Nov", "aqi": 78,  "pm25": 30, "pm10": 46 },
+      { "month": "Dec", "aqi": 86,  "pm25": 34, "pm10": 51 }
+    ],
+    "Shaykhantahur": [
+      { "month": "Jan", "aqi": 116, "pm25": 48, "pm10": 66 },
+      { "month": "Feb", "aqi": 107, "pm25": 44, "pm10": 61 },
+      { "month": "Mar", "aqi": 93,  "pm25": 38, "pm10": 54 },
+      { "month": "Apr", "aqi": 78,  "pm25": 30, "pm10": 44 },
+      { "month": "May", "aqi": 84,  "pm25": 33, "pm10": 49 },
+      { "month": "Jun", "aqi": 100, "pm25": 41, "pm10": 60 },
+      { "month": "Jul", "aqi": 110, "pm25": 46, "pm10": 66 },
+      { "month": "Aug", "aqi": 106, "pm25": 44, "pm10": 63 },
+      { "month": "Sep", "aqi": 93,  "pm25": 38, "pm10": 55 },
+      { "month": "Oct", "aqi": 99,  "pm25": 41, "pm10": 58 },
+      { "month": "Nov", "aqi": 109, "pm25": 45, "pm10": 63 },
+      { "month": "Dec", "aqi": 120, "pm25": 50, "pm10": 69 }
+    ],
+    "Uchtepa": [
+      { "month": "Jan", "aqi": 104, "pm25": 43, "pm10": 63 },
+      { "month": "Feb", "aqi": 96,  "pm25": 39, "pm10": 58 },
+      { "month": "Mar", "aqi": 82,  "pm25": 33, "pm10": 50 },
+      { "month": "Apr", "aqi": 68,  "pm25": 26, "pm10": 39 },
+      { "month": "May", "aqi": 74,  "pm25": 29, "pm10": 44 },
+      { "month": "Jun", "aqi": 90,  "pm25": 36, "pm10": 56 },
+      { "month": "Jul", "aqi": 98,  "pm25": 41, "pm10": 62 },
+      { "month": "Aug", "aqi": 94,  "pm25": 38, "pm10": 58 },
+      { "month": "Sep", "aqi": 81,  "pm25": 32, "pm10": 49 },
+      { "month": "Oct", "aqi": 87,  "pm25": 35, "pm10": 53 },
+      { "month": "Nov", "aqi": 98,  "pm25": 40, "pm10": 60 },
+      { "month": "Dec", "aqi": 108, "pm25": 45, "pm10": 66 }
+    ],
+    "Yakkasaray": [
+      { "month": "Jan", "aqi": 88,  "pm25": 34, "pm10": 51 },
+      { "month": "Feb", "aqi": 80,  "pm25": 30, "pm10": 46 },
+      { "month": "Mar", "aqi": 68,  "pm25": 25, "pm10": 39 },
+      { "month": "Apr", "aqi": 56,  "pm25": 20, "pm10": 31 },
+      { "month": "May", "aqi": 62,  "pm25": 23, "pm10": 35 },
+      { "month": "Jun", "aqi": 76,  "pm25": 29, "pm10": 46 },
+      { "month": "Jul", "aqi": 84,  "pm25": 33, "pm10": 51 },
+      { "month": "Aug", "aqi": 80,  "pm25": 31, "pm10": 48 },
+      { "month": "Sep", "aqi": 68,  "pm25": 26, "pm10": 40 },
+      { "month": "Oct", "aqi": 74,  "pm25": 28, "pm10": 44 },
+      { "month": "Nov", "aqi": 83,  "pm25": 32, "pm10": 50 },
+      { "month": "Dec", "aqi": 92,  "pm25": 37, "pm10": 56 }
+    ]
+  },
+  "districts": [
+    { "name": "Yunusabad",     "aqi": 83,  "pm25": 33, "pm10": 49, "temperature": 22, "population": 400000 },
+    { "name": "Chilanzar",     "aqi": 116, "pm25": 48, "pm10": 65, "temperature": 24, "population": 485000 },
+    { "name": "Mirzo Ulugbek", "aqi": 71,  "pm25": 27, "pm10": 41, "temperature": 21, "population": 330000 },
+    { "name": "Shaykhantahur", "aqi": 102, "pm25": 43, "pm10": 59, "temperature": 23, "population": 420000 },
+    { "name": "Uchtepa",       "aqi": 90,  "pm25": 36, "pm10": 55, "temperature": 22, "population": 365000 },
+    { "name": "Yakkasaray",    "aqi": 76,  "pm25": 28, "pm10": 42, "temperature": 23, "population": 290000 }
+  ],
+  "climateYearly": {
+    "2023": [
+      { "month": "Jan", "temperature": 0.8,  "humidity": 76, "precipitation": 54 },
+      { "month": "Feb", "temperature": 3.5,  "humidity": 72, "precipitation": 46 },
+      { "month": "Mar", "temperature": 10.2, "humidity": 64, "precipitation": 61 },
+      { "month": "Apr", "temperature": 17.0, "humidity": 54, "precipitation": 44 },
+      { "month": "May", "temperature": 22.8, "humidity": 42, "precipitation": 29 },
+      { "month": "Jun", "temperature": 31.2, "humidity": 24, "precipitation": 5  },
+      { "month": "Jul", "temperature": 37.2, "humidity": 20, "precipitation": 2  },
+      { "month": "Aug", "temperature": 34.8, "humidity": 22, "precipitation": 3  },
+      { "month": "Sep", "temperature": 26.5, "humidity": 34, "precipitation": 7  },
+      { "month": "Oct", "temperature": 16.4, "humidity": 55, "precipitation": 23 },
+      { "month": "Nov", "temperature": 8.2,  "humidity": 67, "precipitation": 44 },
+      { "month": "Dec", "temperature": 1.8,  "humidity": 77, "precipitation": 52 }
+    ],
+    "2024": [
+      { "month": "Jan", "temperature": 1.2,  "humidity": 75, "precipitation": 50 },
+      { "month": "Feb", "temperature": 3.9,  "humidity": 71, "precipitation": 43 },
+      { "month": "Mar", "temperature": 11.0, "humidity": 63, "precipitation": 58 },
+      { "month": "Apr", "temperature": 17.6, "humidity": 53, "precipitation": 41 },
+      { "month": "May", "temperature": 23.5, "humidity": 41, "precipitation": 26 },
+      { "month": "Jun", "temperature": 32.0, "humidity": 23, "precipitation": 4  },
+      { "month": "Jul", "temperature": 37.8, "humidity": 19, "precipitation": 1  },
+      { "month": "Aug", "temperature": 35.4, "humidity": 21, "precipitation": 2  },
+      { "month": "Sep", "temperature": 27.0, "humidity": 33, "precipitation": 6  },
+      { "month": "Oct", "temperature": 17.1, "humidity": 54, "precipitation": 20 },
+      { "month": "Nov", "temperature": 8.8,  "humidity": 66, "precipitation": 41 },
+      { "month": "Dec", "temperature": 2.2,  "humidity": 76, "precipitation": 49 }
+    ],
+    "2025": [
+      { "month": "Jan", "temperature": 1.5,  "humidity": 74, "precipitation": 48 },
+      { "month": "Feb", "temperature": 4.2,  "humidity": 70, "precipitation": 40 },
+      { "month": "Mar", "temperature": 11.8, "humidity": 62, "precipitation": 55 },
+      { "month": "Apr", "temperature": 18.3, "humidity": 52, "precipitation": 38 },
+      { "month": "May", "temperature": 24.2, "humidity": 40, "precipitation": 24 },
+      { "month": "Jun", "temperature": 32.8, "humidity": 22, "precipitation": 3  },
+      { "month": "Jul", "temperature": 38.1, "humidity": 18, "precipitation": 1  },
+      { "month": "Aug", "temperature": 35.8, "humidity": 20, "precipitation": 2  },
+      { "month": "Sep", "temperature": 27.4, "humidity": 32, "precipitation": 5  },
+      { "month": "Oct", "temperature": 17.8, "humidity": 54, "precipitation": 19 },
+      { "month": "Nov", "temperature": 9.4,  "humidity": 66, "precipitation": 38 },
+      { "month": "Dec", "temperature": 2.8,  "humidity": 76, "precipitation": 46 }
+    ]
+  },
+  "climateForecast2026": [
+    { "month": "Jan", "predicted": 2.0,  "upper": 4.2,  "lower": -0.2 },
+    { "month": "Feb", "predicted": 4.6,  "upper": 7.0,  "lower": 2.2  },
+    { "month": "Mar", "predicted": 12.2, "upper": 15.0, "lower": 9.4  },
+    { "month": "Apr", "predicted": 18.8, "upper": 21.8, "lower": 15.8 },
+    { "month": "May", "predicted": 24.8, "upper": 28.0, "lower": 21.6 },
+    { "month": "Jun", "predicted": 33.4, "upper": 37.0, "lower": 29.8 }
+  ],
+  "populationYearly": [
+    { "year": "2016", "total": 2420000, "urban": 1650000, "suburban": 770000 },
+    { "year": "2017", "total": 2495000, "urban": 1725000, "suburban": 770000 },
+    { "year": "2018", "total": 2570000, "urban": 1800000, "suburban": 770000 },
+    { "year": "2019", "total": 2645000, "urban": 1870000, "suburban": 775000 },
+    { "year": "2020", "total": 2680000, "urban": 1905000, "suburban": 775000 },
+    { "year": "2021", "total": 2730000, "urban": 1955000, "suburban": 775000 },
+    { "year": "2022", "total": 2780000, "urban": 2005000, "suburban": 775000 },
+    { "year": "2023", "total": 2840000, "urban": 2060000, "suburban": 780000 },
+    { "year": "2024", "total": 2880000, "urban": 2100000, "suburban": 780000 },
+    { "year": "2025", "total": 2920000, "urban": 2140000, "suburban": 780000 }
+  ],
+  "populationForecast": [
+    { "year": "2026", "predicted": 2965000, "upper": 3020000, "lower": 2910000 },
+    { "year": "2027", "predicted": 3012000, "upper": 3080000, "lower": 2944000 },
+    { "year": "2028", "predicted": 3060000, "upper": 3142000, "lower": 2978000 }
+  ],
+  "populationDistricts": [
+    { "name": "Yunusabad",     "population": 400000, "area": 42, "growth": 1.8 },
+    { "name": "Chilanzar",     "population": 485000, "area": 35, "growth": 2.1 },
+    { "name": "Mirzo Ulugbek", "population": 330000, "area": 28, "growth": 1.4 },
+    { "name": "Shaykhantahur", "population": 420000, "area": 31, "growth": 1.6 },
+    { "name": "Uchtepa",       "population": 365000, "area": 38, "growth": 2.4 },
+    { "name": "Yakkasaray",    "population": 290000, "area": 22, "growth": 1.2 }
+  ],
+  "mlPredictions": {
+    "linearRegression": {
+      "metrics": { "mae": 5.1, "rmse": 6.8, "r2": 0.85 },
+      "monthly": [
+        { "month": "Jan", "actual": 102, "predicted": 97  },
+        { "month": "Feb", "actual": 94,  "predicted": 90  },
+        { "month": "Mar", "actual": 80,  "predicted": 84  },
+        { "month": "Apr", "actual": 66,  "predicted": 70  },
+        { "month": "May", "actual": 72,  "predicted": 69  },
+        { "month": "Jun", "actual": 88,  "predicted": 85  },
+        { "month": "Jul", "actual": 96,  "predicted": 92  },
+        { "month": "Aug", "actual": 92,  "predicted": 95  },
+        { "month": "Sep", "actual": 78,  "predicted": 74  },
+        { "month": "Oct", "actual": 84,  "predicted": 88  },
+        { "month": "Nov", "actual": 96,  "predicted": 92  },
+        { "month": "Dec", "actual": 106, "predicted": 101 }
+      ],
+      "forecast": [
+        { "month": "Jan '26", "predicted": 100, "upper": 110, "lower": 90 },
+        { "month": "Feb '26", "predicted": 93,  "upper": 103, "lower": 83 },
+        { "month": "Mar '26", "predicted": 81,  "upper": 91,  "lower": 71 },
+        { "month": "Apr '26", "predicted": 67,  "upper": 77,  "lower": 57 },
+        { "month": "May '26", "predicted": 71,  "upper": 81,  "lower": 61 },
+        { "month": "Jun '26", "predicted": 86,  "upper": 96,  "lower": 76 }
+      ],
+      "featureImportance": [
+        { "feature": "Temperature", "importance": 38 },
+        { "feature": "Humidity",    "importance": 27 },
+        { "feature": "Wind Speed",  "importance": 18 },
+        { "feature": "Season",      "importance": 11 },
+        { "feature": "Population",  "importance": 6  }
+      ]
+    },
+    "arima": {
+      "metrics": { "mae": 1.3, "rmse": 1.6, "r2": 0.97 },
+      "monthly": [
+        { "month": "Jan", "actual": 102, "predicted": 100 },
+        { "month": "Feb", "actual": 94,  "predicted": 93  },
+        { "month": "Mar", "actual": 80,  "predicted": 81  },
+        { "month": "Apr", "actual": 66,  "predicted": 67  },
+        { "month": "May", "actual": 72,  "predicted": 71  },
+        { "month": "Jun", "actual": 88,  "predicted": 87  },
+        { "month": "Jul", "actual": 96,  "predicted": 95  },
+        { "month": "Aug", "actual": 92,  "predicted": 91  },
+        { "month": "Sep", "actual": 78,  "predicted": 79  },
+        { "month": "Oct", "actual": 84,  "predicted": 85  },
+        { "month": "Nov", "actual": 96,  "predicted": 95  },
+        { "month": "Dec", "actual": 106, "predicted": 105 }
+      ],
+      "forecast": [
+        { "month": "Jan '26", "predicted": 103, "upper": 112, "lower": 94 },
+        { "month": "Feb '26", "predicted": 95,  "upper": 104, "lower": 86 },
+        { "month": "Mar '26", "predicted": 82,  "upper": 91,  "lower": 73 },
+        { "month": "Apr '26", "predicted": 68,  "upper": 77,  "lower": 59 },
+        { "month": "May '26", "predicted": 73,  "upper": 82,  "lower": 64 },
+        { "month": "Jun '26", "predicted": 89,  "upper": 98,  "lower": 80 }
+      ],
+      "featureImportance": [
+        { "feature": "Lag 1 (prev month)",           "importance": 44 },
+        { "feature": "Lag 12 (same month last year)", "importance": 28 },
+        { "feature": "Trend",                         "importance": 16 },
+        { "feature": "Seasonality",                   "importance": 12 }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "id": 1,
+      "category": "airquality",
+      "type": "critical",
+      "title": "Chilanzar AQI critically high",
+      "text": "Chilanzar district recorded AQI above 100 in 10 out of 12 months in 2025, consistently the worst-performing district in the city.",
+      "metric": "Avg AQI 116",
+      "district": "Chilanzar",
+      "icon": "eva-alert-triangle-outline"
+    },
+    {
+      "id": 2,
+      "category": "airquality",
+      "type": "success",
+      "title": "Mirzo Ulugbek — best air quality",
+      "text": "Mirzo Ulugbek maintained the lowest average AQI (71) across all districts in 2025, staying in the Moderate range throughout the year.",
+      "metric": "Avg AQI 71",
+      "district": "Mirzo Ulugbek",
+      "icon": "eva-checkmark-circle-2-outline"
+    },
+    {
+      "id": 3,
+      "category": "airquality",
+      "type": "warning",
+      "title": "Dual AQI peaks: winter heating + summer dust",
+      "text": "AQI peaks occur twice yearly — December/January (heating season, PM2.5 up to 44 µg/m³) and June/July (desert dust storms). July peak reached AQI 96.",
+      "metric": "AQI 106 in Dec",
+      "district": "All districts",
+      "icon": "eva-cloud-outline"
+    },
+    {
+      "id": 4,
+      "category": "airquality",
+      "type": "info",
+      "title": "April is the cleanest month",
+      "text": "April consistently shows the lowest AQI (66) — mild temperatures reduce heating demand and dust storm season has not yet begun.",
+      "metric": "AQI 66 in April",
+      "district": "City average",
+      "icon": "eva-info-outline"
+    },
+    {
+      "id": 5,
+      "category": "climate",
+      "type": "warning",
+      "title": "Warming trend confirmed over 3 years",
+      "text": "Annual average temperature rose from 17.6°C (2023) to 18.7°C (2025), a +1.1°C increase — exceeding the regional 30-year average warming rate.",
+      "metric": "+1.1°C in 3 years",
+      "district": "City-wide",
+      "icon": "eva-thermometer-outline"
+    },
+    {
+      "id": 6,
+      "category": "climate",
+      "type": "warning",
+      "title": "Extreme summer heat intensifying",
+      "text": "July 2025 reached 38.1°C average — up from 37.2°C in 2023. Peak daily temperatures regularly exceeded 42°C, posing health risks.",
+      "metric": "July avg 38.1°C",
+      "district": "City-wide",
+      "icon": "eva-sun-outline"
+    },
+    {
+      "id": 7,
+      "category": "climate",
+      "type": "info",
+      "title": "Summer humidity critically low",
+      "text": "July–August humidity dropped to 18–20%, creating severe dry conditions. Combined with extreme heat, this significantly elevates dust particulate levels.",
+      "metric": "18% humidity in July",
+      "district": "City-wide",
+      "icon": "eva-droplets-outline"
+    },
+    {
+      "id": 8,
+      "category": "population",
+      "type": "info",
+      "title": "Uchtepa fastest-growing district",
+      "text": "Uchtepa leads population growth at 2.4%/year, driven by new residential development in the western urban zone. Population reached 365,000 in 2025.",
+      "metric": "+2.4%/year",
+      "district": "Uchtepa",
+      "icon": "eva-trending-up-outline"
+    },
+    {
+      "id": 9,
+      "category": "population",
+      "type": "info",
+      "title": "Urban share exceeds 73%",
+      "text": "73.3% of Tashkent's population lives in urban zones as of 2025, up from 68.2% in 2016 — reflecting sustained rural-to-urban migration.",
+      "metric": "73.3% urban",
+      "district": "City-wide",
+      "icon": "eva-home-outline"
+    },
+    {
+      "id": 10,
+      "category": "population",
+      "type": "success",
+      "title": "Population forecast: 3M milestone by 2028",
+      "text": "Linear regression forecast projects Tashkent's population will surpass 3 million by 2028, driven by continued urbanisation and natural growth.",
+      "metric": "3.06M by 2028",
+      "district": "City-wide",
+      "icon": "eva-people-outline"
+    },
+    {
+      "id": 11,
+      "category": "ml",
+      "type": "success",
+      "title": "ARIMA achieves near-perfect AQI prediction",
+      "text": "ARIMA model reached R²=0.97 with MAE of just 1.3 AQI units on 2025 data — capturing both seasonal dust patterns and winter heating cycles precisely.",
+      "metric": "R² 0.97, MAE 1.3",
+      "district": "Model evaluation",
+      "icon": "eva-bar-chart-2-outline"
+    },
+    {
+      "id": 12,
+      "category": "ml",
+      "type": "warning",
+      "title": "Forecast: AQI above 100 expected Jan 2026",
+      "text": "Both ARIMA (103) and Linear Regression (100) forecast AQI exceeding the safe threshold in January 2026 due to the seasonal heating pattern.",
+      "metric": "Forecast AQI 100–103",
+      "district": "City average",
+      "icon": "eva-alert-circle-outline"
+    }
+  ]
+}

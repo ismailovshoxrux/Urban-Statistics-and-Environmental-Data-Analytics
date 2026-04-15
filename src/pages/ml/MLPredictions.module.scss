@@ -1,0 +1,109 @@
+@import "../../styles/helpers";
+
+// ── Model Selector ─────────────────────────────────────────
+.filterWidget {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+.filterButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filterBtn {
+  padding: 6px 20px;
+  border-radius: 20px;
+  border: 1.5px solid #e0e0e0;
+  background: transparent;
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    border-color: #4D53E0;
+    color: #4D53E0;
+  }
+
+  &.active {
+    background: #4D53E0;
+    border-color: #4D53E0;
+    color: #fff;
+  }
+}
+
+// ── Metric Cards ───────────────────────────────────────────
+.metricCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.metricIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+// ── Model Badge ────────────────────────────────────────────
+.modelBadge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  background: #4D53E015;
+  color: #4D53E0;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #4D53E030;
+}
+
+// ── Custom Tooltip ─────────────────────────────────────────
+.tooltip {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+// ── Residuals Panel ────────────────────────────────────────
+.residualList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.residualRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.residualBar {
+  flex: 1;
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+
+.residualFill {
+  height: 100%;
+  border-radius: 4px;
+  min-width: 4px;
+  transition: width 0.3s ease;
+}
+
+// ── Info Banner ────────────────────────────────────────────
+.infoBanner {
+  display: flex !important;
+  align-items: flex-start;
+  background: #4D53E008 !important;
+  border: 1px solid #4D53E020 !important;
+}

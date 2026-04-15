@@ -1,0 +1,82 @@
+@import "../../styles/helpers";
+
+.bar {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  border-left: 3px solid #4D53E0 !important;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.groupLabel {
+  flex-shrink: 0;
+  font-weight: 500;
+}
+
+.btnRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.divider {
+  width: 1px;
+  height: 28px;
+  background: #e0e0e0;
+  flex-shrink: 0;
+}
+
+.filterBtn {
+  padding: 4px 14px;
+  border-radius: 16px;
+  border: 1.5px solid #e0e0e0;
+  background: transparent;
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: #4D53E0;
+    color: #4D53E0;
+  }
+
+  &.active {
+    color: #fff;
+    // background and borderColor set inline per year
+  }
+
+  &.activeDistrict {
+    background: #4D53E0;
+    border-color: #4D53E0;
+    color: #fff;
+  }
+}

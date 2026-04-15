@@ -1,0 +1,157 @@
+@import "../../styles/helpers";
+
+// ── Summary Cards ──────────────────────────────────────────
+.summaryCard {
+  display: flex;
+  flex-direction: column;
+}
+
+// ── Filter Bar ─────────────────────────────────────────────
+.filterWidget {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.filterButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filterBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1.5px solid #e0e0e0;
+  background: transparent;
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    border-color: #4D53E0;
+    color: #4D53E0;
+  }
+
+  &.active {
+    background: #4D53E0;
+    border-color: #4D53E0;
+    color: #fff;
+
+    .filterCount {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+  }
+}
+
+.filterCount {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 10px;
+  background: #f0f0f0;
+  color: #6b7280;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+// ── Insights Feed ──────────────────────────────────────────
+.insightFeed {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.insightCard {
+  transition: box-shadow 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+  }
+}
+
+.insightIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+// ── Badges ─────────────────────────────────────────────────
+.typeBadge {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.catBadge {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  background: #f0f0f0;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.metricPill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 10px;
+  border: 1.5px solid;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+// ── Correlation Chart Note ─────────────────────────────────
+.correlationNote {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 12px;
+  padding: 8px 10px;
+  background: #4D53E008;
+  border-radius: 6px;
+  border: 1px solid #4D53E020;
+}
+
+// ── District AQI Bars ──────────────────────────────────────
+.aqiBar {
+  position: relative;
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: visible;
+}
+
+.aqiFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+// Threshold line at 100/150 = 66.7%
+.aqiThreshold {
+  position: absolute;
+  top: -3px;
+  left: 66.7%;
+  width: 2px;
+  height: 14px;
+  background: #e0e0e0;
+  border-radius: 1px;
+}

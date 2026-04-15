@@ -1,0 +1,78 @@
+@import "../../styles/helpers";
+
+.mapWrapper {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+// ── District Tooltips ──────────────────────────────────────
+// Override Leaflet's default tooltip style globally and via className
+:global(.leaflet-tooltip),
+.leafletTooltip {
+  background: #fff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  padding: 6px 10px !important;
+
+  &::before {
+    display: none !important;
+  }
+}
+
+.districtTooltip {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  pointer-events: none;
+}
+
+.tooltipName {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1a1a2e;
+  white-space: nowrap;
+}
+
+.tooltipAqi {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.tooltipLabel {
+  font-size: 11px;
+  color: #6b7280;
+}
+
+// ── Legend ─────────────────────────────────────────────────
+.legend {
+  position: absolute;
+  bottom: 24px;
+  right: 12px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #374151;
+}
+
+.legendDot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
