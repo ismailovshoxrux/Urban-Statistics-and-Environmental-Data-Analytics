@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Urban-Statistics-and-Environmental-Data-Analytics/static/css/main.f3b2821b.chunk.css",
+    "main.js": "/Urban-Statistics-and-Environmental-Data-Analytics/static/js/main.b2961b4f.chunk.js",
+    "main.js.map": "/Urban-Statistics-and-Environmental-Data-Analytics/static/js/main.b2961b4f.chunk.js.map",
+    "runtime-main.js": "/Urban-Statistics-and-Environmental-Data-Analytics/static/js/runtime-main.02f9dbe7.js",
+    "runtime-main.js.map": "/Urban-Statistics-and-Environmental-Data-Analytics/static/js/runtime-main.02f9dbe7.js.map",
+    "static/css/2.f2958f2f.chunk.css": "/Urban-Statistics-and-Environmental-Data-Analytics/static/css/2.f2958f2f.chunk.css",
+    "static/js/2.6b2f4e3c.chunk.js": "/Urban-Statistics-and-Environmental-Data-Analytics/static/js/2.6b2f4e3c.chunk.js",
+    "static/js/2.6b2f4e3c.chunk.js.map": "/Urban-Statistics-and-Environmental-Data-Analytics/static/js/2.6b2f4e3c.chunk.js.map",
+    "index.html": "/Urban-Statistics-and-Environmental-Data-Analytics/index.html",
+    "static/css/2.f2958f2f.chunk.css.map": "/Urban-Statistics-and-Environmental-Data-Analytics/static/css/2.f2958f2f.chunk.css.map",
+    "static/css/main.f3b2821b.chunk.css.map": "/Urban-Statistics-and-Environmental-Data-Analytics/static/css/main.f3b2821b.chunk.css.map",
+    "static/js/2.6b2f4e3c.chunk.js.LICENSE.txt": "/Urban-Statistics-and-Environmental-Data-Analytics/static/js/2.6b2f4e3c.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/Urban-Statistics-and-Environmental-Data-Analytics/static/media/la-solid-900.a8130346.svg",
+    "static/media/errorImage.f2dac3af.svg": "/Urban-Statistics-and-Environmental-Data-Analytics/static/media/errorImage.f2dac3af.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02f9dbe7.js",
+    "static/css/2.f2958f2f.chunk.css",
+    "static/js/2.6b2f4e3c.chunk.js",
+    "static/css/main.f3b2821b.chunk.css",
+    "static/js/main.b2961b4f.chunk.js"
+  ]
+}
